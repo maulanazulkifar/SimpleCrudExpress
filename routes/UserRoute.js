@@ -8,5 +8,6 @@ router.get('/users/:id', getUserById);
 router.post('/users', createUser);
 router.patch('/users/:id', updateUser);
 router.delete('/users/:id', deleteUser);
+console.log('asdasd')
 
 export default router;
