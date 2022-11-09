@@ -6,5 +6,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(UserRoute);
+console.log('ini port', process.env.PORT);
 
 app.listen(process.env.PORT || 5000, ()=>console.log('server up and running...'));
