@@ -3,10 +3,10 @@ import {getUser, getUserById, createUser, updateUser, deleteUser} from "../contr
 
 const router = express.Router();
 
-router.get('/users', getUser);
-router.get('/users/:id', getUserById);
-router.post('/users', createUser);
-router.patch('/users/:id', updateUser);
-router.delete('/users/:id', deleteUser);
+router.get('/api/users', getUser);
+router.get('/api/users/:id', getUserById);
+router.post('/api/users', createUser);
+router.patch('/api/users/:id', updateUser);
+router.delete('/api/users/:id', deleteUser);
 
 export default router;
